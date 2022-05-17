@@ -1,0 +1,18 @@
+git initHOW TO PUSH CODE FROM YOUR PC TO GITHUB.
+
+1.log on to the github websit with your github account.
+ click on the plus sign (+)
+ click on "New repository"
+ give it a name, no need to add README.md file
+ click on the "create repository"
+ From the Destop of your PC, create a folder and name.
+ Use the VS code to open the folder and create a README.md file in the folder
+ Type the "pwd" to know your current directory.
+ Type cd, follow by Desktop and afterwards, type the folder name to change directory
+ Type git init
+ Type git stutus
+ Type git add README.md      OR type git add .
+ Type git commit -m"created README.md" -m"description"
+ Type git remote add origin https://github.com/kenisadoh/TEST.git
+ Type git remote -v
+ Type git push origin master
